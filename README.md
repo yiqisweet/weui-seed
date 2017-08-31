@@ -1,0 +1,2 @@
+# weui-seed
+weui-seed
