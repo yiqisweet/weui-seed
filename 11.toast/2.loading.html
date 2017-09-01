@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>Title</title>
+  <link rel="stylesheet" href="../build/weui.css">
+  <link rel="stylesheet" href="../build/example.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="page__hd">
+      <div class="page_title">Toast loading</div>
+      <div class="page_desc">弹出式提示</div>
+    </div>
+
+    <div class="page__bd page__bd_spacing">
+      <a href="javascript:;" class="weui-btn weui-btn_default" id="showToast">成功提示</a>
+      <a href="javascript:;" class="weui-btn weui-btn_default" id="showLoadingToast">加载中提示</a>
+    </div>
+  </div>
+
+  <div id="toast" style="display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+      <i class="weui-loading weui-icon_toast"></i>
+      <p class="weui-toast__content">加载中</p>
+    </div>
+  </div>
+
+  <div></div>
+</body>
+
+</html>
